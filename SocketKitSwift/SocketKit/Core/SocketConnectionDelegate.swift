@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol SocketConnectionDelegate {
+@objc protocol SocketConnectionDelegate {
     func connect()
     func disconnect()
     func isConnected() -> Bool
