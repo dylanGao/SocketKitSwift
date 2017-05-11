@@ -14,6 +14,17 @@
 		FE9B687E1EC444850054C442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9B687C1EC444850054C442 /* LaunchScreen.storyboard */; };
 		FE9B68891EC444860054C442 /* SocketKitSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B68881EC444860054C442 /* SocketKitSwiftTests.swift */; };
 		FE9B68941EC444860054C442 /* SocketKitSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B68931EC444860054C442 /* SocketKitSwiftUITests.swift */; };
+		FE9B698A1EC454AF0054C442 /* SocketByteBuf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B69891EC454AF0054C442 /* SocketByteBuf.swift */; };
+		FE9B698C1EC454D20054C442 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B698B1EC454D20054C442 /* SocketUtils.swift */; };
+		FE9B698E1EC4551D0054C442 /* SocketException.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B698D1EC4551D0054C442 /* SocketException.swift */; };
+		FE9B69901EC456480054C442 /* SocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B698F1EC456480054C442 /* SocketConnection.swift */; };
+		FE9B69921EC456730054C442 /* SocketConnectParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B69911EC456730054C442 /* SocketConnectParam.swift */; };
+		FE9B69961EC458E30054C442 /* SocketConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B69951EC458E30054C442 /* SocketConnectionDelegate.swift */; };
+		FE9B69981EC4592B0054C442 /* SocketChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B69971EC4592B0054C442 /* SocketChannel.swift */; };
+		FE9B699A1EC459520054C442 /* SocketChannelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B69991EC459520054C442 /* SocketChannelDefault.swift */; };
+		FE9B699C1EC459980054C442 /* SocketChannel+Heartbeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B699B1EC459980054C442 /* SocketChannel+Heartbeat.swift */; };
+		FE9B699E1EC45EF60054C442 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B699D1EC45EF60054C442 /* SocketPacket.swift */; };
+		FE9B69A01EC462520054C442 /* SocketPacketContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B699F1EC462520054C442 /* SocketPacketContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		FE9B688F1EC444860054C442 /* SocketKitSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketKitSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9B68931EC444860054C442 /* SocketKitSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketKitSwiftUITests.swift; sourceTree = "<group>"; };
 		FE9B68951EC444860054C442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9B69891EC454AF0054C442 /* SocketByteBuf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketByteBuf.swift; sourceTree = "<group>"; };
+		FE9B698B1EC454D20054C442 /* SocketUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketUtils.swift; sourceTree = "<group>"; };
+		FE9B698D1EC4551D0054C442 /* SocketException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketException.swift; sourceTree = "<group>"; };
+		FE9B698F1EC456480054C442 /* SocketConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketConnection.swift; sourceTree = "<group>"; };
+		FE9B69911EC456730054C442 /* SocketConnectParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketConnectParam.swift; sourceTree = "<group>"; };
+		FE9B69951EC458E30054C442 /* SocketConnectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketConnectionDelegate.swift; sourceTree = "<group>"; };
+		FE9B69971EC4592B0054C442 /* SocketChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketChannel.swift; sourceTree = "<group>"; };
+		FE9B69991EC459520054C442 /* SocketChannelDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketChannelDefault.swift; sourceTree = "<group>"; };
+		FE9B699B1EC459980054C442 /* SocketChannel+Heartbeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SocketChannel+Heartbeat.swift"; sourceTree = "<group>"; };
+		FE9B699D1EC45EF60054C442 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		FE9B699F1EC462520054C442 /* SocketPacketContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacketContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,7 @@
 		FE9B68721EC444850054C442 /* SocketKitSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FE9B68A21EC4453A0054C442 /* SocketKit */,
 				FE9B68731EC444850054C442 /* AppDelegate.swift */,
 				FE9B68751EC444850054C442 /* ViewController.swift */,
 				FE9B68771EC444850054C442 /* Main.storyboard */,
@@ -123,6 +146,48 @@
 				FE9B68951EC444860054C442 /* Info.plist */,
 			);
 			path = SocketKitSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FE9B68A21EC4453A0054C442 /* SocketKit */ = {
+			isa = PBXGroup;
+			children = (
+				FE9B68A31EC4453A0054C442 /* Core */,
+				FE9B68AA1EC4453A0054C442 /* Extend */,
+				FE9B68AF1EC4453A0054C442 /* RPC */,
+			);
+			path = SocketKit;
+			sourceTree = "<group>";
+		};
+		FE9B68A31EC4453A0054C442 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FE9B69891EC454AF0054C442 /* SocketByteBuf.swift */,
+				FE9B69971EC4592B0054C442 /* SocketChannel.swift */,
+				FE9B699B1EC459980054C442 /* SocketChannel+Heartbeat.swift */,
+				FE9B69991EC459520054C442 /* SocketChannelDefault.swift */,
+				FE9B698F1EC456480054C442 /* SocketConnection.swift */,
+				FE9B69951EC458E30054C442 /* SocketConnectionDelegate.swift */,
+				FE9B69911EC456730054C442 /* SocketConnectParam.swift */,
+				FE9B698D1EC4551D0054C442 /* SocketException.swift */,
+				FE9B698B1EC454D20054C442 /* SocketUtils.swift */,
+				FE9B699D1EC45EF60054C442 /* SocketPacket.swift */,
+				FE9B699F1EC462520054C442 /* SocketPacketContext.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FE9B68AA1EC4453A0054C442 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
+		FE9B68AF1EC4453A0054C442 /* RPC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RPC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +327,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9B699A1EC459520054C442 /* SocketChannelDefault.swift in Sources */,
 				FE9B68761EC444850054C442 /* ViewController.swift in Sources */,
+				FE9B698A1EC454AF0054C442 /* SocketByteBuf.swift in Sources */,
+				FE9B698E1EC4551D0054C442 /* SocketException.swift in Sources */,
+				FE9B69961EC458E30054C442 /* SocketConnectionDelegate.swift in Sources */,
+				FE9B69981EC4592B0054C442 /* SocketChannel.swift in Sources */,
+				FE9B69921EC456730054C442 /* SocketConnectParam.swift in Sources */,
+				FE9B698C1EC454D20054C442 /* SocketUtils.swift in Sources */,
+				FE9B69901EC456480054C442 /* SocketConnection.swift in Sources */,
 				FE9B68741EC444850054C442 /* AppDelegate.swift in Sources */,
+				FE9B69A01EC462520054C442 /* SocketPacketContext.swift in Sources */,
+				FE9B699E1EC45EF60054C442 /* SocketPacket.swift in Sources */,
+				FE9B699C1EC459980054C442 /* SocketChannel+Heartbeat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
